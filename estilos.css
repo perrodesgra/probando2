@@ -1,0 +1,57 @@
+body{background-color: black;}
+.Letras{color: pink; background-color: black;}
+.corazon{color: red;}
+.Letras{display: flex; font-size: 150px; justify-content: center; }
+.corazon{font-size: 350px;}
+.corazon{position: absolute; top: 30%; left: 40%;}
+.bro{position: absolute; left: 10%;}
+.Letras{font-family: "baloo thambi", cursive;}
+
+.Letras > span {animation: glow 2s ease-in-out;}
+.corazon > span {animation: glow 2s ease-in-out;}
+
+@keyframes glow {
+    0%, 100% {
+        color: #fff;
+        text-shadow: 0 0 12px rgb(255, 27, 240), 0 0 50px rgb(255, 27, 240) 0 0 100px rgb(255, 27, 240);
+    }
+    10%, 90%{
+        color: black;
+        text-shadow: none;
+    }
+}
+.Letras > span:nth-child(2){
+    animation-delay: 0s;
+} 
+.Letras > span:nth-child(3){
+    animation-delay: 0.60s;
+} 
+.Letras > span:nth-child(4){
+    animation-delay: 0.60s;
+} 
+.Letras > span:nth-child(5){
+    animation-delay: 0.60s;
+} 
+.Letras > span:nth-child(6){
+    animation-delay: 0.60s;
+}
+.Letras > span:nth-child(7){
+    animation-delay: 0.60;
+}
+.Letras > span:nth-child(8){
+    animation-delay: 1.20s;
+}
+.Letras > span:nth-child(9){
+    animation-delay: 1.20s;
+}
+.Letras > span:nth-child(10){
+    animation-delay: 1.20s;
+}
+.Letras > span:nth-child(11){
+    animation-delay: 1.20s;
+}
+.corazon > span:nth-child(1){
+    animation-delay: 1.50s;
+}
+
+
